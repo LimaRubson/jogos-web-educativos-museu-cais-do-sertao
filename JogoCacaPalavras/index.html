@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Jogo Caça Palavras</title>
+</head>
+<body>
+    <div id="content">
+        <div class="palavras">
+            <h1>Quantidade de palavras restantes</h1>
+            <h1 id="quantidadePalavras"></h1>
+        </div>
+        <button class="resposta-style-button">J</button>
+        <button class="resposta-style-button">G</button>
+        <button class="resposta-style-button" id="museu_M">M</button>
+        <button class="resposta-style-button" id="museu_U_01">U</button>
+        <button class="resposta-style-button" id="museu_S">S</button>
+        <button class="resposta-style-button" id="museu_E">E</button>
+        <button class="resposta-style-button" id="museu_U_02">U</button>
+        <button class="resposta-style-button">H</button>
+        <button class="resposta-style-button">M</button>
+        <button class="resposta-style-button">S</button>
+
+        <br/>
+
+        <button class="resposta-style-button">A</button>
+        <button class="resposta-style-button">F</button>
+        <button class="resposta-style-button">C</button>
+        <button class="resposta-style-button">H</button>
+        <button class="resposta-style-button">M</button>
+        <button class="resposta-style-button">C</button>
+        <button class="resposta-style-button" id="gibao_G">G</button>
+        <button class="resposta-style-button">H</button>
+        <button class="resposta-style-button">J</button>
+        <button class="resposta-style-button">E</button>
+
+        <br/>
+
+        <button class="resposta-style-button">L</button>
+        <button class="resposta-style-button">H</button>
+        <button class="resposta-style-button">G</button>
+        <button class="resposta-style-button">P</button>
+        <button class="resposta-style-button">I</button>
+        <button class="resposta-style-button">K</button>
+        <button class="resposta-style-button" id="gibao_I">I</button>
+        <button class="resposta-style-button">H</button>
+        <button class="resposta-style-button">Z</button>
+        <button class="resposta-style-button" id="seca_S">S</button>
+
+        <br/>
+
+        <button class="resposta-style-button">M</button>
+        <button class="resposta-style-button">T</button>
+        <button class="resposta-style-button">C</button>
+        <button class="resposta-style-button">D</button>
+        <button class="resposta-style-button">P</button>
+        <button class="resposta-style-button">A</button>
+        <button class="resposta-style-button" id="gibao_B">B</button>
+        <button class="resposta-style-button">H</button>
+        <button class="resposta-style-button">W</button>
+        <button class="resposta-style-button" id="seca_E">E</button>
+
+        <br/>
+
+        <button class="resposta-style-button">T</button>
+        <button class="resposta-style-button">N</button>
+        <button class="resposta-style-button">B</button>
+        <button class="resposta-style-button">Y</button>
+        <button class="resposta-style-button">C</button>
+        <button class="resposta-style-button">X</button>
+        <button class="resposta-style-button" id="gibao_A">A</button>
+        <button class="resposta-style-button">H</button>
+        <button class="resposta-style-button">P</button>
+        <button class="resposta-style-button" id="seca_C">C</button>
+
+        <br/>
+
+        <button class="resposta-style-button">A</button>
+        <button class="resposta-style-button">I</button>
+        <button class="resposta-style-button">A</button>
+        <button class="resposta-style-button">K</button>
+        <button class="resposta-style-button">E</button>
+        <button class="resposta-style-button">B</button>
+        <button class="resposta-style-button" id="gibao_O">O</button>
+        <button class="resposta-style-button">H</button>
+        <button class="resposta-style-button">D</button>
+        <button class="resposta-style-button" id="seca_A">A</button>
+
+        <br/>
+
+        <button class="resposta-style-button" id="vaqueiro_V">V</button>
+        <button class="resposta-style-button" id="vaqueiro_A">A</button>
+        <button class="resposta-style-button" id="vaqueiro_Q">Q</button>
+        <button class="resposta-style-button" id="vaqueiro_U">U</button>
+        <button class="resposta-style-button" id="vaqueiro_E">E</button>
+        <button class="resposta-style-button" id="vaqueiro_I">I</button>
+        <button class="resposta-style-button" id="vaqueiro_R">R</button>
+        <button class="resposta-style-button" id="vaqueiro_O">O</button>
+        <button class="resposta-style-button">I</button>
+        <button class="resposta-style-button">L</button>
+
+        <br/>
+
+        <button class="resposta-style-button">B</button>
+        <button class="resposta-style-button">Y</button>
+        <button class="resposta-style-button">L</button>
+        <button class="resposta-style-button">W</button>
+        <button class="resposta-style-button">Q</button>
+        <button class="resposta-style-button">J</button>
+        <button class="resposta-style-button">G</button>
+        <button class="resposta-style-button">H</button>
+        <button class="resposta-style-button">O</button>
+        <button class="resposta-style-button">J</button>
+
+        <br/>
+
+        <button class="resposta-style-button">D</button>
+        <button class="resposta-style-button">B</button>
+        <button class="resposta-style-button" id="sertao_S">S</button>
+        <button class="resposta-style-button" id="sertao_E">E</button>
+        <button class="resposta-style-button" id="sertao_R">R</button>
+        <button class="resposta-style-button" id="sertao_T">T</button>
+        <button class="resposta-style-button" id="sertao_A">A</button>
+        <button class="resposta-style-button" id="sertao_O">O</button>
+        <button class="resposta-style-button">U</button>
+        <button class="resposta-style-button">H</button>
+
+        <br/>
+
+        <button class="resposta-style-button">K</button>
+        <button class="resposta-style-button">T</button>
+        <button class="resposta-style-button">N</button>
+        <button class="resposta-style-button">D</button>
+        <button class="resposta-style-button">M</button>
+        <button class="resposta-style-button">Z</button>
+        <button class="resposta-style-button">G</button>
+        <button class="resposta-style-button">H</button>
+        <button class="resposta-style-button">I</button>
+        <button class="resposta-style-button">G</button>
+
+        <br/>
+    </div>
+
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <h1>Palavras</h1>
+            <h2 class="style-palavras" id="palavra_01"></h2>
+            <h2 class="style-palavras" id="palavra_02"></h2>
+            <h2 class="style-palavras" id="palavra_03"></h2>
+            <h2 class="style-palavras" id="palavra_04"></h2>
+            <h2 class="style-palavras" id="palavra_05"></h2>
+            <button type="button" class="btn" id="close">Jogar Novamente</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
