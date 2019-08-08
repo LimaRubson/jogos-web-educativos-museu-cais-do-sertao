@@ -1,0 +1,107 @@
+ div#content {
+    margin: 0 auto;
+    width: 600px;
+    height: 562px;
+  }
+  
+  .resposta-style-button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: brown;
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    padding: 5px 5px 5px 5px;
+    border-color: brown;
+    border-radius: 3px;
+    margin-top: 3px;
+}
+
+.resposta-style-button:hover {
+    background-color: brown;
+    border-color: darkgoldenrod;
+    color: white;
+}
+
+.palavras {
+    width: 89%;
+    height: 100px;
+    color: white;
+    background-color: brown;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 2; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+  .modal-content {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: brown;
+      text-align: center;
+      background-color: #fefefe;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+      z-index: 2;
+  }
+  
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .btn {
+    color: white;
+    background-color: brown;
+    width: 200px;
+    border-color: white;
+    border-radius: 5px; 
+}
+
+.btn:hover {
+    border-color: darkgoldenrod;
+}
+
+.style-palavras {
+  color: green;
+}
+
+.style-box {
+  background-color: brown;
+  color: white;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  font-size: 30px;
+  color: white;
+  background-color: brown;
+  width: 300px;
+  height: 100px;
+  border-color: white;
+  border-radius: 5px; 
+}
+
+.btn:hover {
+  border-color: darkgoldenrod;
+}

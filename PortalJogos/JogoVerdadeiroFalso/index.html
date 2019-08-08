@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Jogo Verdadeiro ou Falso</title>
+</head>
+<body>
+    <div id="content">
+        <h1 class="pergunta-style" id="pergunta"></h1>
+
+        <button class="resposta-style-button" id="resposta01"></button>
+        <button class="resposta-style-button" id="resposta02"></button>
+        
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div class="style-box">
+                    <h1>Jogo Verdadeiro ou Falso - Resultado</h1>
+                </div>
+                <h3 class="style-suas-respostas" id="sua_resposta_01"></h3>
+                <h3 class="style-suas-respostas" id="sua_resposta_02"></h3>
+                <h3 class="style-suas-respostas" id="sua_resposta_03"></h3>
+                <div class="style-box-acertos">
+                    <h2>Acertos</h2>
+                </div>
+                <h1 class="style-acertos" id="acertos"></h1>
+                <div class="style-box-erros">
+                    <h2>Erros</h2>
+                </div>
+                <h1 class="style-erros" id="erros"></h1>
+                <button type="button" class="btn" id="close">Jogar Novamente</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/pontos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

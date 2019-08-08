@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .style-box {
+    background-color: brown;
+    color: white;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+  .style-box-acertos, .style-box-erros {
+    background-color: brown;
+    color: white;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    padding: 1px;
+  }
+
+  .style-suas-respostas, .style-acertos {
+      color: green;
+  }
+
+  .style-erros {
+      color: red;
+  }
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 2;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .modal-content {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: brown;
+      text-align: center;
+      background-color: #fefefe;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+      z-index: 2;
+  }
+  
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .pergunta-style {
+      text-align: center;
+      color: brown;
+  }
+  
+  .resposta-style-button {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 20px;
+      color: brown;
+      background-color: transparent;
+      width: 100%;
+      margin: 5px auto 5px auto;
+      padding: 20px 0px 20px 0px;
+      border-color: brown;
+      border-radius: 3px;
+  }
+
+  .resposta-style-button:hover {
+      background-color: brown;
+      border-color: darkgoldenrod;
+      color: white;
+  }
+
+  #content {
+    margin: auto;
+    width: 645px;
+    height: 562px;
+    position: absolute;
+    top: 15%; bottom: 0;
+    left: 0; right: 0;
+  }
+
+  .btn {
+    font-size: 30px;
+    color: white;
+    background-color: brown;
+    width: 300px;
+    height: 100px;
+    border-color: white;
+    border-radius: 5px; 
+}
+
+.btn:hover {
+    border-color: darkgoldenrod;
+}
